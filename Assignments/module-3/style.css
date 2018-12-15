@@ -1,0 +1,18 @@
+
+
+.navbar-brand{
+  font-size: 25px;
+}
+
+.navbar-nav{
+  font-size: 25px;
+  float: right;
+  margin-right: 30%;
+}
+
+
+@media (min-width: 768px){
+  .menu-item{
+    visibility: none;
+  } 
+}
