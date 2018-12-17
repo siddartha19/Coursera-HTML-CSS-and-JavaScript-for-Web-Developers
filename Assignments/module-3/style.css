@@ -1,17 +1,43 @@
 
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
 
 .navbar{
 	border-radius: 0px;
+	background-color: rgba(0,0,0,0.8);
 }
 
 .navbar-brand{
-  font-size: 25px;
+  font-size: 35px;
+  color: white;
+  padding-left: 25px;
+}
+
+.navbar-brand:hover{
+	color: white;
+}
+
+.nav{
+	margin: 0;
+	padding: 0;
 }
 
 .navbar-nav{
   font-size: 25px;
-  float: right;
-  margin-right: 30%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 25px;
+}
+
+.icon-bar{
+	background-color: white;
 }
 
 
@@ -23,6 +49,27 @@
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-weight: bold;
 }
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid black;
+	color: black;
+	display: block;
+}
+
+.menu-item:hover{
+	background-color: rgba(0,0,0,0.9);
+	color: rgba(0,0,0,0.4);
+}
+
 
 
 .row{
